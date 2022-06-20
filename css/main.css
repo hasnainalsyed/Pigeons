@@ -1,3 +1,12 @@
+:root {
+  --primary: #ebc908;
+  --primary-text: #1a1a1a;
+  --secondary: #207a67;
+  --secondary-text: #ffffff;
+  --accent: #8e846e;
+  --accent-text: #ffffff;
+}
+
 a,
 abbr,
 acronym,
@@ -193,7 +202,7 @@ div {
   -webkit-box-align: center;
   align-items: center;
   width: 100%;
-  background-image: url(/config/images/bg.png);
+  background-image: url('../images/bg.png');
   background-size: cover;
   background-position: center center;
 }
